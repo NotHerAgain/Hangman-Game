@@ -1,0 +1,26 @@
+body {
+    font: serif, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    padding: 150px;
+}
+
+button {
+    background-color: hotpink;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+.btn_btn_info {
+    background-color: rgb(23, 81, 83);
+    align-items: center;
+    margin-top: 30px; 
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+
+.btn_alphabet :checked {
+    background-color: purple;
+}
