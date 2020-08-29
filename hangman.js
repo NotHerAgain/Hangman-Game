@@ -1,13 +1,18 @@
-var dog_breeds = [
-    "golden retreiver",
-    "dashound",
-    "pug",
-    "terrier",
-    "westie",
-    "collie",
-    "german shephard",
-    "dalmation",
-    "great dane"
+var dd_class = [
+    "bard",
+    "warlock",
+    "sorcerer",
+    "paladin",
+    "cleric",
+    "artificer",
+    "druid",
+    "monk",
+    "barbarian",
+    "rogue",
+    "fighter",
+    "ranger",
+    "wizard",
+    "blood hunter"
 ]
 
 let answer = '';
@@ -17,7 +22,7 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-    answer = dog_breeds[Math.floor(Math.random() * dog_breeds.length)];
+    answer = dd_class[Math.floor(Math.random() * dd_class.length)];
 }
 
 function generateButtons() {
